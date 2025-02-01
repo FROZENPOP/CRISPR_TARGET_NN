@@ -11,7 +11,7 @@ Shreyas Sindhaval
 Investigating the Efficiency of Model-Based Approaches in Designing Guide RNAs for CRISPR
 
 
-To use the model to predict use this code:
+# To use the model to predict use this code:
 
 ```
 test_sequence = "[30mer]"
