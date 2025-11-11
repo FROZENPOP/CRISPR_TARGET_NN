@@ -25,7 +25,7 @@ The deep-learning pipelines included here streamline gRNA selection by providing
 
 ---
 
-## 🧠 Models
+## Models
 
 - **`crispr-keras`**  
   - Uses only CNN layers for semantic encoding.  
@@ -36,7 +36,7 @@ The deep-learning pipelines included here streamline gRNA selection by providing
 
 ---
 
-## 📖 Publications
+## Publications
 
 If you use these predictive models, please cite:  
 
@@ -45,7 +45,7 @@ If you use these predictive models, please cite:
 
 ---
 
-## 🚀 Usage Example
+## Usage Example
 
 ```python
 # Example usage to predict gRNA efficiency
