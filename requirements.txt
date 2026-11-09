@@ -19,5 +19,5 @@ numpy>=1.26
 # which is the name matplotlib 3.6 and later expect.
 matplotlib>=3.6
 
-# Note: both notebooks also `import torch`, but never use it — the models are
+# Note: both notebooks also `import torch`, but never use it. The models are
 # pure Keras, so PyTorch is deliberately omitted here.
