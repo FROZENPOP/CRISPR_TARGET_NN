@@ -122,7 +122,11 @@ point `pd.read_csv` at the CSV in this repository:
 cas = pd.read_csv('FINAL_FILTERED_CRISPR_DATA.csv')
 ```
 
-Requires `tensorflow`/`keras`, `scikit-learn`, `pandas`, `numpy` and `matplotlib`.
+Install the dependencies with:
+
+```bash
+pip install -r requirements.txt
+```
 
 No trained weights are checked in, so run `crispr-rnn.ipynb` top to bottom first. That leaves
 `model` (80/20 split), `modelall` (all rows), `tokenizer` and `scaler` in scope, after which you can
@@ -169,6 +173,17 @@ If you use these models, please cite:
 
 > Sindhaval, S. *Investigating the Efficiency of Model-Based Approaches in Designing Guide RNAs for
 > CRISPR.*
+
+---
+
+## License
+
+The code in this repository is released under the [MIT License](LICENSE).
+
+The data files — `FINAL_FILTERED_CRISPR_DATA.csv` and `SupplementaryTable1.xlsx` — are **not**
+covered by it. They are derived from the supplementary data of Doench et al. (2016) together with
+DepMap and GeCKOv1, each of which carries its own terms; cite those sources directly if you reuse
+the data.
 
 ---
 

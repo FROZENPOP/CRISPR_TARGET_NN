@@ -1,0 +1,23 @@
+# Dependencies for crispr-rnn.ipynb and crispr-keras.ipynb
+#
+#   pip install -r requirements.txt
+#
+# Python 3.11 or newer is recommended, matching the Kaggle image the notebooks
+# were originally written on.
+
+# Keras 3 ships inside TensorFlow; the notebooks target that API
+# (Embedding / Conv1D / MaxPooling1D / GRU / Dense, Tokenizer, pad_sequences).
+tensorflow>=2.16
+
+# train_test_split and StandardScaler
+scikit-learn>=1.3
+
+pandas>=2.0
+numpy>=1.26
+
+# Loss-curve plots. The notebooks use the 'seaborn-v0_8-whitegrid' style,
+# which is the name matplotlib 3.6 and later expect.
+matplotlib>=3.6
+
+# Note: both notebooks also `import torch`, but never use it — the models are
+# pure Keras, so PyTorch is deliberately omitted here.
