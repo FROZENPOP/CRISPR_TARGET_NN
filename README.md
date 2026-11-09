@@ -183,7 +183,7 @@ The code in this repository is released under the [MIT License](LICENSE).
 The data files — `FINAL_FILTERED_CRISPR_DATA.csv` and `SupplementaryTable1.xlsx` — are **not**
 covered by it. They are derived from the supplementary data of Doench et al. (2016) together with
 DepMap and GeCKOv1, each of which carries its own terms; cite those sources directly if you reuse
-the data.
+the data. See [NOTICE](NOTICE) for details.
 
 ---
 

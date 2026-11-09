@@ -1,0 +1,17 @@
+The MIT License in LICENSE applies to the code in this repository — that is,
+crispr-rnn.ipynb and crispr-keras.ipynb.
+
+It does not grant rights to the accompanying data files:
+
+  - FINAL_FILTERED_CRISPR_DATA.csv
+  - SupplementaryTable1.xlsx
+
+These are derived from third-party sources that carry their own terms:
+
+  - Doench, J. G. et al. "Optimized sgRNA design to maximize activity and
+    minimize off-target effects of CRISPR-Cas9." Nature Biotechnology 34(2),
+    2016. https://doi.org/10.1038/nbt.3437
+  - DepMap portal - https://depmap.org/portal/data_page/?tab=allData
+  - GeCKOv1 (Human CRISPR Knockout Pooled Library)
+
+Please consult and cite those sources directly for any reuse of the data.

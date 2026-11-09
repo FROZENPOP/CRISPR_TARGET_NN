@@ -19,19 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
----
-
-NOTE ON THE DATASETS
-
-This license covers the code in this repository (the notebooks). It does not
-grant rights to the accompanying data files, which are derived from
-third-party sources that carry their own terms:
-
-  - FINAL_FILTERED_CRISPR_DATA.csv
-  - SupplementaryTable1.xlsx
-
-These are derived from the supplementary data of Doench et al. (2016),
-Nature Biotechnology 34(2), https://doi.org/10.1038/nbt.3437, together with
-the DepMap portal (https://depmap.org) and the GeCKOv1 library. Please consult
-and cite those sources directly for any reuse of the data.
